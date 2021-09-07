@@ -42,6 +42,10 @@ const lengthOfLastWord = (s) => {
 * Volga State Technological University, 2013 - 2017
 * Russian Open Academy of Transport, 2017 - 2020
 
+### Courses
+
+* Hexlet: frontend-developer(provcessing)
+* freeCodeCamp: JavaScript Algorithms and Data Structures
 
 ### Languages
 
