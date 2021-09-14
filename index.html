@@ -11,15 +11,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f005f42173.js" crossorigin="anonymous"></script>
     <!-- Подсветка кода -->
-    <link rel="stylesheet" href="/default.css">
-    <script src="/highlight.min.js"></script>
+    <link rel="stylesheet" href="style/default.css">
+    <script src="js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+     <!-- Подключение скриптов -->
+    <script src="js/script.js"></script>
+    <script src="js/scroll.js"></script>
 
 </head>
 <body>
     <div class="wrapper">
         <header class="header-wrapper">
             <nav class="nav-wrapper">
+                 <!-- меню бургер -->
+
+                <div class="menu-header">
+                    <div class="menu-wrap">
+                        <nav class="mobile-nav">
+                            <ul class="mobile_list">
+                                <li><a class="nav__link" href="#projects">Projects</a></li>
+                                <li><a class="nav__link" href="#skills">Skills</a></li>
+                                <li><a class="nav__link" href="#languages">Languages</a></li>
+                                <li><a class="nav__link" href="#education">Education</a></li>
+                                <li><a class="nav__link" href="#codeexample">Code example</a></li>
+                                <li><a class="nav__link" href="#experience">Experience</a></li>
+                                <li><a class="nav__link" href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                        <i class="fas fa-bars fa-3x menu-icon"></i>
+                    </div>
+                </div>
+                <!-- меню бургер -->
                 <ul class="nav__list">
                     <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
                     <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
