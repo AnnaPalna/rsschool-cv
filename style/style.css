@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #cbe1e7;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+	min-width: 320px;
+}
+
+.page-header, 
+.main-wrapper,
+.footer-wrapper
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Navigation */
+.nav-wrapper {
+    margin-top: 0;
+    background-color: #F8F8FF;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav__list li {
+    color:rgb(45, 33, 88);
+    text-decoration: none;
+}
+
+.nav__item {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.nav__link {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.nav__link:hover {
+    border-radius: 1rem;
+    background-color: #83a7f3;
+}
+
+.nav__link:active {
+    color: #000000;
+}
+
+.nav__link:visited {
+    color: #002168;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+/* Header */
+
+.contacts {
+    display: block;
+    margin-top: -1rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;    
+}
+
+.avatar {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    /* border: 2px solid black; */
+}
+
+
+.avatar img {
+    padding: 3px;
+    border: 3px solid rgb(45, 33, 88);
+    border-radius: 50%;
+    text-align: center; 
+    margin-bottom: 0;
+}
+
+.info {
+    display: block;
+    margin-top: 2rem;
+}
+
+.page-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+
+ul { 
+    list-style: none;
+}
+
+p.name {
+    font-size: 38px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+p.profession {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 1em;
+
+}
+
+.basic-info {
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 2em;
+}
+
+.basic-info li {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    font-size: 17px;
+}
+
+.basic-info li::marker{
+    content: '🚀 ';
+    color: slateblue;
+    font-size: 1.2em;
+}
+
+/* Contacts */
+
+.fa-github {
+    color: #000000;
+}
+
+.contacts__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacts__list li {
+    padding: 1rem;
+}
+
+.contacts__list i {
+    color:navy;
+}
+
+.contacts__list i:hover {
+    color:navy;
+    transform: scale(1.2);
+}
+
+/* Main */
+
+/* Projects */
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.projects__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    border: 2px solid navy;
+}
+
+.projects__list li {
+    padding-top: 1rem;  
+}
+
+.projects__item-title {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.projects__item a img {
+    max-width: 100%;
+    padding: 2rem;
+} 
+
+.projects__item a img:hover {
+    box-shadow: 0 1px 2px 1px rgb(75, 75, 77);
+}
+
+.projects__item-description {
+    margin-bottom: 1rem;
+}
+
+/* Skills */
+
+ul.skills__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+.skills__list li {
+    border-radius: 30px/90px;
+    border: 2px solid slateblue;
+    border-top: none; 
+    border-bottom: none; 
+    padding: 1em;
+}
+
+/* languages */
+
+ul.languages__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+.languages__list li {
+    border: 2px solid slateblue;
+    padding: 1em;
+}
+
+/* Education */
+
+ul.education__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+.education__list li {
+    margin-top: 1rem;
+    padding: 2rem;
+    border: 2px solid slateblue;
+}
+
+
+/* Code example */
+
+
+.code {
+    max-width: 300px;
+    font-size: 0.7rem;
+}
+.code__description {
+    text-align: left;
+    font-weight: 500;
+    padding: 1rem;
+}
+/* Experience */
+
+.experience__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+
+.experience__list .experience__item {
+    width: 70%;
+    margin-top: 1rem;
+    padding: 2rem;
+    border: 2px solid slateblue;
+    text-align: left;
+}
+
+.responsibilities li::marker{
+    content: '➤ ';
+    list-style-type: circle;
+    color: slateblue;
+    font-size: 1em;
+}
+
+.job-date {
+    font-size: 20px;
+    font-weight: 700;
+    color:navy;
+    padding-bottom: 0.5rem;
+}
+
+.company-name {
+    padding-bottom: 0.5rem;
+}
+
+.position {
+    padding-bottom: 0.5rem;
+    font-weight: 800;
+}
+
+/* footer */
+
+.footer {
+    background-color: #F8F8FF;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+
+/* Burger menu */
+
+.menu-header {
+    display: none;
+}
+
+.menu-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+.menu-icon {
+    position: absolute;
+    top: 0px;
+}
+
+
+.mobile-nav {
+    position: absolute;
+    background-color: #F8F8FF;
+    opacity: 0.9;
+    top:45px;
+    left:0;
+    width: 100%;
+}
+
+.mobile-nav ul {
+    display: none;
+}
+
+.mobile-nav.open ul {
+    display: block;
+}
+
+.mobile-nav ul li {
+    padding: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 12px;
+    color: #DAE1E7;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+
+/* Media */
+
+@media (max-width: 859.98px) {
+    .contacts {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    p.name {
+        margin-left: -1rem;
+        text-align: center;
+    }
+    p.profession {
+        margin-left: -1rem;
+        text-align: center;
+    }
+
+    .nav__list {
+        display: none;
+    }
+    .menu-header {
+        display: flex;
+        height: 45px;
+        background-color: #F8F8FF;
+        padding: 10px 0;
+    }
+} 
+
+
+@media (max-width: 375.98px) { 
+    code {
+        font-size: 12px;
+    }
+}

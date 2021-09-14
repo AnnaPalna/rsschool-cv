@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f005f42173.js" crossorigin="anonymous"></script>
+    <!-- Подсветка кода -->
+    <link rel="stylesheet" href="style/default.css">
+    <script src="js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+     <!-- Подключение скриптов -->
+    <script src="js/script.js"></script>
+    <script src="js/scroll.js"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-wrapper">
+            <nav class="nav-wrapper">
+                 <!-- меню бургер -->
+
+                <div class="menu-header">
+                    <div class="menu-wrap">
+                        <nav class="mobile-nav">
+                            <ul class="mobile_list">
+                                <li><a class="nav__link" href="#projects">Projects</a></li>
+                                <li><a class="nav__link" href="#skills">Skills</a></li>
+                                <li><a class="nav__link" href="#languages">Languages</a></li>
+                                <li><a class="nav__link" href="#education">Education</a></li>
+                                <li><a class="nav__link" href="#codeexample">Code example</a></li>
+                                <li><a class="nav__link" href="#experience">Experience</a></li>
+                                <li><a class="nav__link" href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                        <i class="fas fa-bars fa-3x menu-icon"></i>
+                    </div>
+                </div>
+                <!-- меню бургер -->
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#codeexample">Code example</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#experience">Experience</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-wrapper">
+                <!-- временно -->
+                <section class="page-header">
+                    <div class="avatar">
+                        <div class="photo">
+                            <img src="images/1899_oooo.plus.png" width="200" alt="My photo">
+                        </div>
+                        <div class="contacts">
+                            <!-- <h2>Contacts</h2> -->
+                            <ul class="contacts__list">
+                                <li class="contact__item"><a href="https://github.com/annapalna" class="contact__list__link" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+                                <li class="contact__item"><a href="mailto:ibraeva.ann@gmail.com" class="contact__list__link" target="_blank"><i class="fas fa-envelope fa-2x"></i></a></li>
+                                <li class="contact__item"><a href="https://t.me/my_dear_darkness" class="contact__list__link" target="_blank"><i class="fab fa-telegram fa-2x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h1 class="visually-hidden">About myself</h1>
+                        <p class="name">Anna Ibraeva</p>
+                        <p class="profession">Frontend-developer</p>
+                        <ul class="basic-info">
+                            <li>I started career as 1C developer then I was on a third grade at University</li>
+                            <li>I used to work as support and nowadays I’m a senior-support in my team</li>
+                            <li>I would like to join Frontend Development</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="projects">
+                    <h2 id="projects">Projects</h2>
+                    <ul class="projects__list">
+                        <li class="projects__item">
+                            <h3 class="projects__item-title">Todo JS</h3>
+                            <p class="projects__item-description">A simple ToDo app created with native JavaScript</p>
+                            <p class="projects__tech"><strong>Tech: </strong>Vanilla JS, HTML, CSS, DOM</p>
+                            <a href="https://annapalna.github.io/TODO-JS/" target="_blank"><img src="images/content/todo.png" width="400" height="300" alt="todo list"></a>
+                        </li>
+                        <li class="projects__item">
+                            <h3 class="projects__item-title">Weather App</h3>
+                            <p class="projects__item-description">Weather App made with vanilla JS using OpenWeather API</p>
+                            <p class="projects__tech"><strong>Tech: </strong>Vanilla JS, HTML, CSS, Webpack, Ajax, OpenWeather API</p>
+                            <a href="https://annapalna.github.io/Weather-app/dist/index.html" target="_blank"><img src="images/content/weather.png" width="400" height="300" alt="weather app"></a>
+                        </li>
+                        <li class="projects__item">
+                            <h3 class="projects__item-title">Brain Games</h3>
+                            <p class="projects__item-description">Brain Games is a set of five console-games.</p>
+                            <p class="projects__tech"><strong>Tech: </strong>Vanilla JS, Npm, Eslint</p>
+                            <a href="https://github.com/AnnaPalna/frontend-project-lvl1" target="_blank"><img src="images/content/brain-games.png" width="400" height="300" alt="brain games"></a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="skills">
+                    <h2 id="skills">Skills</h2>
+                    <ul class="skills__list">
+                        <li class="skills__item">HTML5, CSS3</li>
+                        <li class="skills__item">JavaScript(ES6+)</li>
+                        <li class="skills__item">AJAX</li>
+                        <li class="skills__item">GIT, Githab</li>
+                        <li class="skills__item">Webpack</li>
+                        <li class="skills__item">React (basic)</li>
+                    </ul>
+                </section>
+
+                <section class="languages">
+                    <h2 id="languages">Languages</h2>
+                    <ul class="languages__list">
+                        <li class="languages__item">English - B1+</li>
+                        <li class="languages__item">Russian - Native</li>
+                    </ul>
+                </section>
+
+                <!-- <section class="code-example">
+                    <h2>Code example</h2>
+                    <pre>
+                        const lengthOfLastWord = (s) => {
+                            const arr = s.trim().split(' ');
+                            return arr[arr.length - 1].length;
+                        }
+                    </pre>
+                </section> -->
+
+                <section class="education">
+                    <h2 id="education">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <h3 class="education__item-title">Volga State Technological University</h3>
+                            <p class="education__item-data">2013 - 2017</p>
+                            <p class="education__item-specialty">Applied informatics in economics</p>
+                        </li>
+                        <li class="education__item">
+                            <h3 class="education__item-title">Russian Open Academy of Transport</h3>
+                            <p class="education__item-data">2017 - 2020</p>
+                            <p class="education__item-specialty">Applied informatics in business security</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="code-example">
+                    <h2 id="codeexample">Code example</h2>
+                    <p class="code__description">Given a string s consisting of some words separated by some number of spaces, return the length of the last word in the string.
+
+A word is a maximal substring consisting of non-space characters only.</p>
+                    <pre>
+                        <code>
+    const lengthOfLastWord = (s) => {        
+       const arr = s.trim().split(' ');
+         return arr[arr.length - 1].length;
+    };                                        
+                    
+                        </code>
+                    </pre>
+                </section>
+
+                <section class="experience">
+                    <h2 id="experience">Experience</h2>
+                    <div class="experience__list">
+                        <div class="experience__item">
+                            <p class="job-date">2019-2021</p>
+                            <p class="company-name">Balance Platform</p>
+                            <p class="position">Support && senior support</p>
+                            <ul class="responsibilities">
+                                <li>Interaction with management on employee and project development issues</li>
+                                <li>Mentoring junior supports</li>
+                                <li>Application testing</li>
+                                <li>Bugs registration</li>
+                            </ul>
+                        </div>
+    
+                        <div class="experience__item">
+                            <p class="job-date">2017-2019</p>
+                            <p class="company-name">Taxcom</p>
+                            <p class="position">Support && analyst</p>
+                            <ul class="responsibilities">
+                                <li>Analysis and resolution of incidents</li>
+                                <li>Interaction with clients, including remote connection</li>
+                                <li>Software installation and support</li>
+                            </ul>
+                        </div>
+    
+                        <div class="experience__item">
+                            <p class="job-date">2016-2017</p>
+                            <p class="company-name">1C Rarus</p>
+                            <p class="position">Trainee software engineer</p>
+                            <ul class="responsibilities">
+                                <li>Installation, configuration and revision of software</li>
+                                <li>Maintenance of software</li>
+                                <li>Consulting on working with programs and information resources of the company "1C"</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </section>
+
+            </div>
+        </main>
+        <!-- временно -->
+    <!-- </div> -->
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <h2 id="contacts" class="visually-hidden">Contacts</h2>
+                <!-- временно -->
+                <!--  -->
+                <ul class="links">
+                    <li>© 2021 by Anna Ibraeva</li>
+
+                    <li>
+                        <ul class="contacts__list">
+                            <li class="contact__item"><a href="https://github.com/annapalna" class="contact__list__link" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <li class="contact__item"><a href="mailto:ibraeva.ann@gmail.com" class="contact__list__link" target="_blank"><i class="fas fa-envelope"></i></a></li>
+                            <li class="contact__item"><a href="https://t.me/my_dear_darkness" class="contact__list__link" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="https://rs.school/js/" class="rsschool">
+                        <img class="resschool__logo" src="images/logo/rs_school_js.svg" height="70" width="100" title="RS School" alt="RS-School"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>
