@@ -415,6 +415,16 @@ nav ul li a {
         margin-left: -1rem;
         text-align: center;
     }
+
+    .nav__list {
+        display: none;
+    }
+    .menu-header {
+        display: flex;
+        height: 45px;
+        background-color: #F8F8FF;;
+        padding: 10px 0;
+    }
 } 
 
 
